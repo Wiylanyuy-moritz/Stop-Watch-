@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "stopwatch-7ac5e",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/ayo.html"
+      }
+    ]
+  }
+}
